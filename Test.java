@@ -15,5 +15,6 @@ public static void main(String args[]){
 };
 public void run(String args){
 	Plate<? extends Fruit> plate = new Plate<Apple>(new Apple());
+	plate.set(new Apple());
 }
 }
